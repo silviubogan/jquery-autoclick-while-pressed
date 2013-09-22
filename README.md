@@ -4,7 +4,7 @@ jquery-autoclick-while-pressed is a jQuery plugin that "autoclicks" elements (e.
 
 Usage
 -----
-In your HTML file, include the _autoclick-while-pressed.min.js_ file:
+In your HTML file, after the place where you include jQuery, include the _autoclick-while-pressed.min.js_ file:
 
     <script src="path/to/autoclick-while-pressed.min.js"></script>
 
