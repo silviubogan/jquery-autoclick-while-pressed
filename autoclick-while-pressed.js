@@ -28,7 +28,7 @@
 		}
 		var $this = this;
 		return this.on({
-			"mousedown": function (ev) {
+			"mousedown": function () {
 				initialDelayTimeout = setTimeout(function () {
 					interval = setInterval(function () {
 						$this.trigger(options.eventToTrigger);
