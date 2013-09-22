@@ -24,6 +24,12 @@ where _options_ is an object which may have the following properties:
 
 For a demonstration, see the _demo_ directory.
 
+For developers
+--------------
+The compressed JS file _autoclick-while-pressed.min.js_ is created using [UglifyJS](https://github.com/mishoo/UglifyJS2/):
+
+    uglifyjs autoclick-while-pressed.js -m -c -o autoclick-while-pressed.min.js
+
 License
 -------
    Copyright 2013 Bogan Silviu
