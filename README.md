@@ -40,7 +40,7 @@ uglifyjs autoclick-while-pressed.js -m -c -o autoclick-while-pressed.min.js
 
 License
 -------
-   Copyright 2013 Bogan Silviu
+   Copyright 2013 Silviu Bogan
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
