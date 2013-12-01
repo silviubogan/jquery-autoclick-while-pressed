@@ -6,15 +6,21 @@ Usage
 -----
 In your HTML file, after the place where you include jQuery, include the _autoclick-while-pressed.min.js_ file:
 
-    <script src="path/to/autoclick-while-pressed.min.js"></script>
+```html
+<script src="path/to/autoclick-while-pressed.min.js"></script>
+```
 
 Then, in your JavaScript code, you can use it like this:
 
-    $("#my-button").autoclickWhilePressed();
+```js
+$("#my-button").autoclickWhilePressed();
+```
 
 or
 
-    $("#my-button").autoclickWhilePressed(options);
+```js
+$("#my-button").autoclickWhilePressed(options);
+```
 
 where _options_ is an object which may have the following properties:
 
@@ -28,7 +34,9 @@ For developers
 --------------
 The compressed JS file _autoclick-while-pressed.min.js_ is created using [UglifyJS](https://github.com/mishoo/UglifyJS2/):
 
-    uglifyjs autoclick-while-pressed.js -m -c -o autoclick-while-pressed.min.js
+```sh
+uglifyjs autoclick-while-pressed.js -m -c -o autoclick-while-pressed.min.js
+```
 
 License
 -------
